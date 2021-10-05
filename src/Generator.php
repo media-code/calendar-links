@@ -1,6 +1,6 @@
 <?php
 
-namespace mediacode\CalendarLinks;
+namespace CalendarLinks;
 
 interface Generator
 {

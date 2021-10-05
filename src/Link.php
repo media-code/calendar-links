@@ -1,12 +1,12 @@
 <?php
 
-namespace mediacode\CalendarLinks;
+namespace CalendarLinks;
 
-use Spatie\CalendarLinks\Exceptions\InvalidLink;
-use Spatie\CalendarLinks\Generators\Google;
-use Spatie\CalendarLinks\Generators\Ics;
-use Spatie\CalendarLinks\Generators\WebOutlook;
-use Spatie\CalendarLinks\Generators\Yahoo;
+use CalendarLinks\Exceptions\InvalidLink;
+use CalendarLinks\Generators\Google;
+use CalendarLinks\Generators\Ics;
+use CalendarLinks\Generators\WebOutlook;
+use CalendarLinks\Generators\Yahoo;
 
 /**
  * @property-read string $title

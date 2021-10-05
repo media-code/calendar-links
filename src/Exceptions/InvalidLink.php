@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\CalendarLinks\Exceptions;
+namespace CalendarLinks\Exceptions;
 
 use DateTimeInterface;
 use InvalidArgumentException;
