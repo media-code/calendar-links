@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\CalendarLinks\Generators;
+namespace mediacode\CalendarLinks\Generators;
 
 use DateTimeZone;
-use Spatie\CalendarLinks\Generator;
-use Spatie\CalendarLinks\Link;
+use mediacode\CalendarLinks\Generator;
+use mediacode\CalendarLinks\Link;
 
 /**
  * @see https://github.com/InteractionDesignFoundation/add-event-to-calendar-docs/blob/master/services/google.md

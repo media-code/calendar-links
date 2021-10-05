@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\CalendarLinks;
+namespace mediacode\CalendarLinks;
 
 use Spatie\CalendarLinks\Exceptions\InvalidLink;
 use Spatie\CalendarLinks\Generators\Google;
