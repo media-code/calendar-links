@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\CalendarLinks\\": "src"
+            "CalendarLinks\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\CalendarLinks\\Tests\\": "tests"
+            "CalendarLinks\\Tests\\": "tests"
         }
     },
     "scripts": {
