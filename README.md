@@ -1,4 +1,8 @@
-# Generate add to calendar links for Google, iCal and other calendar systems
+# Do not delete: Is a dependency of FNV CRM
+
+
+## Generate add to calendar links for Google, iCal and other calendar systems
+
 
 ## FORK spatie/calendar-links
 
