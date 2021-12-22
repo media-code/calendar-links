@@ -39,7 +39,9 @@ class Ics implements Generator
             $url[] = 'DTSTART:'.$link->from->format($dateTimeFormat);
             $url[] = 'DURATION:P'.(max(1, $link->from->diff($link->to)->days)).'D';
         } else {
-            $timestamp = explode(':', $link->from->format($dateTimeFormat))[2] ?? $link->from->format($dateTimeFormat);
+            $explodedTimeStamp = explode(':', $link->from->format($dateTimeFormat));
+            $timestamp = isset($explodedTimeStamp[2]) ? $explodedTimeStamp[2] : $link->from->format($dateTimeFormat);
+
             $url[] = 'DTSTART;TZID='.'Europe/Amsterdam:' . $timestamp;
             $url[] = 'DTEND;TZID='.$link->to->format($dateTimeFormat);
         }
